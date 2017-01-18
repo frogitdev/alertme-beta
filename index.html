@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--코드의 무단 복제 절대 금지-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#009688" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" sizes="192x192" href="icon.png" />
+	<title>alertMe Beta</title>
+</head>
+<!--코드의 무단 복제 절대 금지-->
+<body align="center">
+	<noscript>
+  		<p style="color:red;">[!경고] 이 브라우저는 JavaScript를 지원하지 않습니다!</p>
+	</noscript>
+	<content>
+		<img src="logo.png" />
+		<input id="srchbox" class="trans" type="text" name="search" placeholder="" onkeypress="if(event.keyCode==13) {resultFactor();}" autocomplete="off" autofocus />
+		<input id="sbmbtn" class="trans" type="submit" name="submit" value="명령" />
+		<p id="hlplb">[!] alertMe와 인사를 나눠보거나 검색을 해보세요!</p>
+		<div class="srchrslt">
+			<p id="ussbm"></p><input id="edtbtn" type="submit" name="submit" value="편집"></input>
+			<hr id="line" />
+			<p id="cssbm"></p>
+		</div>
+	</content>
+	<footer>
+		<p>ver. beta_170118001</p>
+		<p>이 소프트웨어는 MIT 라이선스를</p><p>적용하고 있습니다. <a href="https://github.com/frogitdev/alertme-beta" target="_blank">GitHub<a/></p>
+		<p>Copyright (C) 2017 <a href="http://blog.ptware.net/" target="_blank">FrogIT</a></p>
+		<p id="credit">도움을 주신 분들</p>
+	</footer>
+	<script type="text/javascript" src="./libraries/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="./libraries/josa.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+<!--코드의 무단 복제 절대 금지-->
