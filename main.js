@@ -1,4 +1,9 @@
-//코드의 무단 복제 절대 금지
+/*
+
+Copyright (C)FrogIT. All Rights Reserved.
+
+*/
+
 var srch = $("#srchbox");
 var hplb = $("#hlplb");
 var ussb = $("#ussbm");
