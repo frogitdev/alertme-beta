@@ -133,4 +133,3 @@ function checkTime(cktm) {
 function showCredit() {
 	alert("Thanks to...\njosa.js Library (C) 2012 Jaemin Jo\njQuery Library - The jQuery Foundation");
 }
-//코드의 무단 복제 절대 금지
