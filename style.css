@@ -6,15 +6,15 @@ Copyright (C)FrogIT. All Rights Reserved.
 
 @font-face {
     font-family:NotoR;
-    src:url(./fonts/NotoSansCJKkr-Regular.otf);
+    src:url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff');
 }
 @font-face {
 	font-family:NotoD;
-    src:url(./fonts/NotoSansCJKkr-DemiLight.otf);
+    src:url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff');
 }
 @font-face {
 	font-family:NotoL;
-    src:url(./fonts/NotoSansCJKkr-Light.otf);
+    src:url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff');
 }
 * { font-family:NotoR, Sans-Serif !important; }
 *:focus { outline:none; }
